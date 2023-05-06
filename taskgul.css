@@ -1,0 +1,390 @@
+
+.navlist{
+    display: flex;
+    justify-content:flex-start;
+    gap: 80px;
+    margin: 0px;
+}
+.navitems{
+    list-style-type: none;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navitm{
+    margin-left: 0px;
+    list-style-type: none;
+    font-size: medium;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tline{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.searchbox{
+    height: 30px;
+    width: 300px;
+}
+.navlist2{
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+}
+.navitems2{
+    list-style-type: none;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.images{
+    
+    width: 100%;
+    height: 600px;
+    gap: 10px;
+    display: flex;
+}
+.div1{
+    width: 60%;
+    height: 600px;
+    background-image: url(../assets/23_12_13_01_01_lawn_2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div1:hover,.div3:hover,.div4:hover,.div5:hover,.div7:hover,.div8:hover,.div9:hover,.div10:hover,.div11:hover,.div13:hover,.div14:hover,.div15:hover,.div17:hover,.div18:hover,.div19:hover,.div20:hover{
+    transition: all 0.2s;
+    transform:scale(0.9);
+}
+.div2{
+
+    width: 50%;
+    height: 600px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.div3{
+   
+    width: 600px;
+    height: 300px;
+    background-image: url(../assets/23_12_13_01_02_embroidered_2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div4{
+
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(../assets/23_12_13_01_03_printed_lawn_2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div5{
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/23_03_18_pkd_sale_ib_d.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+}
+.parent{
+    width: 100%;
+    height: 600px;
+    gap: 10px;
+    display: flex;
+}
+.div6{
+    width: 50%;
+    height: 600px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.div7{
+    height: 300px;
+    width: 600px;
+    background-image: url(../assets/22_11_28_02_02.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div8{
+    height: 300px;
+    width: 600px;
+    background-image: url(../assets/22_12_13_02_03_gents_fabric.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div9{
+    width: 60%;
+    height: 600px;
+    background-image: url(../assets/22_11_28_02_01.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.div10{
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/22_08_19_fr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+}
+.parent2{
+    
+    width: 100%;
+    height: 600px;
+    gap: 10px;
+    display: flex;
+}
+.div11{
+    width: 60%;
+    height: 600px;
+    background-image: url(../assets/22_12_20_03_01_home.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div12{
+
+    width: 50%;
+    height: 600px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.div13{
+   
+    width: 600px;
+    height: 300px;
+    background-image: url(../assets/22_10_19_03_02_bath_linen.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div14{
+
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(../assets/22_12_20_03_03_accessories.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.parent3{
+    width: 100%;
+    height: 600px;
+    gap: 10px;
+    display: flex;
+}
+.div16{
+    width: 50%;
+    height: 600px;
+    gap: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.div17{
+    height: 300px;
+    width: 600px;
+    background-image: url(../assets/22_11_14_04_02.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div18{
+    height: 300px;
+    width: 600px;
+    background-image: url(../assets/22_11_14_04_03.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div19{
+    width: 60%;
+    height: 600px;
+    background-image: url(../assets/22_11_14_04_01.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.div20{
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/23_03_20_salt.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+.head{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.subheading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.subheading:hover{
+    color: red;
+    text-decoration: underline;
+}
+.div21{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card2{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card3{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.image{
+    height: 380px;
+    width: 380px;
+}
+.image:hover{
+    transition: all 0.2s;
+    transform: scale(0.8);
+}
+.title{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.description{
+    font-size: medium;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.button:hover{
+    color: red;
+    text-decoration: underline;
+}
+.div22{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rev{
+    width: 400px;
+    height: 170px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+}
+.star1{
+font-size: 30px;
+color: orange;
+}
+.div23{
+    width: 100%;
+    height: 110px;
+    background-color: lightgrey;
+}
+.navlist3{
+    width: auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.navitems3{
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+    margin: 20px ;
+}
+.navlist4{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navitems4{
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin-top: -30px;
+    text-align: center;
+}
+.div24{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+.div25{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.subdiv1{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.btn3{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subdiv2{
+    border: 4px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.btn4{
+    background-color: green;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div26{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

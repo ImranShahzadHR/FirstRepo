@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.box{
+    width: 400px;
+    margin-top: 2rem;
+    height: 400px;
+    background-image: url("../2fa74476259065.5c64446086f6f.jpg");
+    background-size: cover;
+    margin-left: 500px;
+    background-position: center;
+    /* object-fit: cover; */
+    /* transform: skewY(10deg); */
+    /* border-radius: 20px; */
+    clip-path: circle(50% at 50% 50%);
+    
+}
+.image{
+    width:100%;
+    height: 500px;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px black;
+   
+    transition: all 2s;
+}
+.icon{
+    font-size: 40px;
+    color:red;
+}
